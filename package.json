@@ -1,6 +1,6 @@
 {
   "name": "shrr-react-slick",
-  "version": "0.14.12",
+  "version": "0.14.14",
   "description": " Fork of React port of slick carousel",
   "main": "./lib",
   "scripts": {
@@ -81,7 +81,7 @@
       "./test-setup.js"
     ]
   },
-  "npmName": "react-slick",
+  "npmName": "shrr-react-slick",
   "npmFileMap": [
     {
       "basePath": "/dist/",

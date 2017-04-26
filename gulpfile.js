@@ -67,7 +67,7 @@ gulp.task('dist-clean', function () {
 var distConfig = require('./webpack.config.dist.js');
 gulp.task('dist-unmin', function (cb) {
   var unminConfig = assign({}, distConfig);
-  unminConfig.output.filename = 'react-slick.js';
+  unminConfig.output.filename = 'shrr-react-slick.js';
   return webpack(unminConfig, function (err, stat) {
     console.error(err);
     cb();
@@ -77,7 +77,7 @@ gulp.task('dist-unmin', function (cb) {
 
 gulp.task('dist-min', function (cb) {
   var minConfig = assign({}, distConfig);
-  minConfig.output.filename = 'react-slick.min.js';
+  minConfig.output.filename = 'shrr-react-slick.min.js';
   minConfig.plugins = minConfig.plugins.concat(
     new webpack.optimize.UglifyJsPlugin({
       compressor: {

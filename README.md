@@ -1,4 +1,4 @@
-# react-slick
+# shrr-react-slick
 
 [![Join the chat at https://gitter.im/akiran/react-slick](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/akiran/react-slick?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -10,7 +10,7 @@ Carousel component built with React. It is a react port of [slick carousel](http
 ### Installation
 
 ```bash
-npm install react-slick
+npm install shrr-react-slick
 ```
 
 Also install slick-carousel for css and font
@@ -45,7 +45,7 @@ get started with react-slick.
 
 ```js
 var React = require('react');
-var Slider = require('react-slick');
+var Slider = require('shrr-react-slick');
 
 class SimpleSlider extends React.Component {
   render: function () {
